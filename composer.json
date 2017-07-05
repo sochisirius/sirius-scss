@@ -1,0 +1,12 @@
+{
+    "name": "davlichin.ma/sirius-sass",
+    "description": "Sirius scss colors and images",
+    "type": "library",
+    "authors": [
+        {
+            "name": "davlichin.ma",
+            "email": "davlichin.ma@talantiuspeh.ru"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,23 @@
+{
+  "name": "sirius-sass",
+  "authors": [
+    "davlichin.ma <davlichin.ma@talantiuspeh.ru>"
+  ],
+  "description": "Sirius scss colors and images",
+  "main": "",
+  "keywords": [
+    "Sirius",
+    "Colors",
+    "SCSS",
+    "Images"
+  ],
+  "license": "MIT",
+  "homepage": "https://sochisirius.ru",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

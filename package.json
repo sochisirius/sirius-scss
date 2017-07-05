@@ -1,0 +1,18 @@
+{
+  "name": "sirius-sass",
+  "version": "1.0.0",
+  "description": "Sirius scss colors and images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.talantiuspeh.ru/davlichin.ma/sirius-sass.git"
+  },
+  "keywords": [
+    "Sirius"
+  ],
+  "author": "davlichin.ma <davlichin.ma@talantiuspeh.ru>",
+  "license": "ISC"
+}
