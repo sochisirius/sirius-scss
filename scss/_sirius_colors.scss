@@ -1,0 +1,47 @@
+$colors: (
+        sirius-purple: rgb(120, 45, 141),
+        sirius-purple-dark: rgb(82, 47, 144),
+        sirius-blue-dark: rgb(0, 84, 165),
+        sirius-blue: rgb(39, 169, 224),
+        sirius-green-dark: rgb(25, 138, 68),
+        sirius-green: rgb(141, 198, 65),
+        sirius-red-dark: rgb(177, 31, 37),
+        sirius-pink: rgb(218, 28, 93),
+        sirius-red: rgb(239, 69, 35),
+        sirius-orange-dark: rgb(244, 121, 33),
+        sirius-orange: rgb(250, 165, 26),
+        sirius-yellow: rgb(255, 212, 0)
+);
+
+$sirius-font-path: '' !default;
+
+@function sirius_color($name) {
+  @return map_get($colors, $name);
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src: url("#{$sirius-font-path}fonts/Geometria_gdi.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src: url("#{$sirius-font-path}fonts/Geometria-Bold_gdi.woff") format("woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src: url("#{$sirius-font-path}fonts/Geometria-Light.woff") format("woff");
+  font-weight: 100;
+}
+
+@each $name, $color in $colors {
+  .bg-#{$name} {
+    background-color: $color;
+  }
+  .fg-#{$name} {
+    color: $color;
+  }
+}

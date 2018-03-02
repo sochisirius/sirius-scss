@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sirius Colors</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="sirius.colors.css">
+    <style>
+        html, body {
+            font-family: 'Geometria', sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row template">
+        <div class="col-sm-6"><h1></h1></div>
+        <div class="col-sm-6"><h1></h1></div>
+    </div>
+</div>
+<script>
+    $(function () {
+        var colors = [
+            'sirius-purple',
+            'sirius-purple-dark',
+            'sirius-blue-dark',
+            'sirius-blue',
+            'sirius-green-dark',
+            'sirius-green',
+            'sirius-red-dark',
+            'sirius-pink',
+            'sirius-red',
+            'sirius-orange-dark',
+            'sirius-orange',
+            'sirius-yellow'
+        ];
+        var src_row = $('.template').first();
+        colors.forEach(function (color) {
+            var row = src_row.clone();
+            var first = $(row.children()[0]);
+            var second = $(row.children()[1]);
+            first.addClass('bg-' + color);
+            first.find('h1').html(color).css('font-weight', randWeight());
+            second.addClass('fg-' + color);
+            second.find('h1').html(color).css('font-weight', randWeight());
+            $('.container').append(row);
+        })
+    });
+
+    function randWeight() {
+        var weights = ['bold', 'normal', '100'];
+        return weights[Math.round(Math.random() * 2)];
+    }
+</script>
+</body>
+</html>

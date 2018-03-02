@@ -2,6 +2,5 @@
 
 ****Установка**:**
 
-_bower_
 
-`bower install --save https://gitlab.talantiuspeh.ru/davlichin.ma/sirius-sass.git`
+`yarn add https://gitlab.talantiuspeh.ru/davlichin.ma/sirius-sass.git`
