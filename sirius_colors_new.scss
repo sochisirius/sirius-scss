@@ -1,0 +1,46 @@
+$colors: (
+        'purple': rgb(77, 0, 140),
+        'purple-light': rgb(144, 160, 196),
+        'gray': rgb(144, 144, 144),
+        'green': rgb(0, 177, 170),
+        'red': rgb(236, 99, 82),
+        'blue': rgb(0, 154, 220),
+        'orange': rgb(255, 161, 0),
+        'salad': rgb(184, 255, 43),
+        'brown': rgb(207, 165, 159),
+);
+
+$sirius-font-path: '' !default;
+
+@function srs_color($name) {
+  @return map_get($colors, $name);
+}
+
+@each $name, $color in $colors {
+  .bg-srs-#{$name} {
+    background-color: $color;
+  }
+  .fg-srs-#{$name} {
+    color: $color;
+  }
+}
+
+@font-face {
+  font-family: 'LabGrotesque';
+  src: url("#{$sirius-font-path}fonts/LabGrotesque/LabGrotesque-Light.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'LabGrotesque';
+  src: url("#{$sirius-font-path}fonts/LabGrotesque/LabGrotesque-Black.woff") format("woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'LabGrotesque';
+  src: url("#{$sirius-font-path}fonts/LabGrotesque/LabGrotesque-Black.woff") format("woff");
+  font-weight: bold;
+}
+
+@import './Helvetica';
