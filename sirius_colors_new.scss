@@ -33,13 +33,7 @@ $sirius-font-path: '' !default;
 
 @font-face {
   font-family: 'LabGrotesque';
-  src: url("#{$sirius-font-path}fonts/LabGrotesque/LabGrotesque-Black.woff") format("woff");
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'LabGrotesque';
-  src: url("#{$sirius-font-path}fonts/LabGrotesque/LabGrotesque-Black.woff") format("woff");
+  src: url("#{$sirius-font-path}fonts/LabGrotesque/LabGrotesque-Bold.woff") format("woff");
   font-weight: bold;
 }
 
