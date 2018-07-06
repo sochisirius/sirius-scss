@@ -1,0 +1,144 @@
+.bg-srs-purple {
+  background-color: #4d008c; }
+
+.fg-srs-purple {
+  color: #4d008c; }
+
+.bg-srs-purple-light {
+  background-color: #90a0c4; }
+
+.fg-srs-purple-light {
+  color: #90a0c4; }
+
+.bg-srs-gray {
+  background-color: #909090; }
+
+.fg-srs-gray {
+  color: #909090; }
+
+.bg-srs-green {
+  background-color: #00b1aa; }
+
+.fg-srs-green {
+  color: #00b1aa; }
+
+.bg-srs-red {
+  background-color: #ec6352; }
+
+.fg-srs-red {
+  color: #ec6352; }
+
+.bg-srs-blue {
+  background-color: #009adc; }
+
+.fg-srs-blue {
+  color: #009adc; }
+
+.bg-srs-orange {
+  background-color: #ffa100; }
+
+.fg-srs-orange {
+  color: #ffa100; }
+
+.bg-srs-salad {
+  background-color: #b8ff2b; }
+
+.fg-srs-salad {
+  color: #b8ff2b; }
+
+.bg-srs-brown {
+  background-color: #cfa59f; }
+
+.fg-srs-brown {
+  color: #cfa59f; }
+
+@font-face {
+  font-family: 'LabGrotesque';
+  src: url("fonts/LabGrotesque/LabGrotesque-Light.woff") format("woff");
+  font-weight: normal; }
+@font-face {
+  font-family: 'LabGrotesque';
+  src: url("fonts/LabGrotesque/LabGrotesque-Black.woff") format("woff");
+  font-weight: bold; }
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url("fonts/Helvetica/HelveticaNeueCyr-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url("fonts/Helvetica/HelveticaNeueCyr-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url("fonts/Helvetica/HelveticaNeueCyr-HeavyItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic; }
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url("fonts/Helvetica/HelveticaNeueCyr-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url("fonts/Helvetica/HelveticaNeueCyr-UltraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic; }
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url("fonts/Helvetica/HelveticaNeueCyr-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic; }
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url("fonts/Helvetica/HelveticaNeueCyr-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic; }
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url("fonts/Helvetica/HelveticaNeueCyr-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic; }
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url("fonts/Helvetica/HelveticaNeueCyr-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url("fonts/Helvetica/HelveticaNeueCyr-UltraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal; }
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url("fonts/Helvetica/HelveticaNeueCyr-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url("fonts/Helvetica/HelveticaNeueCyr-Italic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic; }
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url("fonts/Helvetica/HelveticaNeueCyr-Roman.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url("fonts/Helvetica/HelveticaNeueCyr-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url("fonts/Helvetica/HelveticaNeueCyr-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url("fonts/Helvetica/HelveticaNeueCyr-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal; }
+
+/*# sourceMappingURL=sirius_colors_new.css.map */

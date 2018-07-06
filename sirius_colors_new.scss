@@ -28,6 +28,13 @@ $sirius-font-path: '' !default;
 @font-face {
   font-family: 'LabGrotesque';
   src: url("#{$sirius-font-path}fonts/LabGrotesque/LabGrotesque-Light.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'LabGrotesque';
+  src: url("#{$sirius-font-path}fonts/LabGrotesque/LabGrotesque-Black.woff") format("woff");
+  font-weight: bold;
 }
 
 @import './Helvetica';
