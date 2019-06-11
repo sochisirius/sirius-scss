@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.talantiuspeh.ru/davlichin.ma/sirius-sass.git"
+    "url": "git@gitlab.talantiuspeh.ru:davlichin.ma/sirius-sass.git"
   },
   "keywords": [
     "Sirius"
