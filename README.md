@@ -3,4 +3,4 @@
 ****Установка**:**
 
 
-`yarn add https://gitlab.talantiuspeh.ru/davlichin.ma/sirius-scss.git`
+`yarn add https://github.com/sochisirius/sirius-scss.git`
